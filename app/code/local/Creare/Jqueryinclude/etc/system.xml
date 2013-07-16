@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<config>
+    <sections>
+        <design translate="label">
+            <groups>
+                <head translate="label">
+                    <fields>
+                        <jquery_enabled translate="label">
+                            <label>Include Your Own Jquery Library?</label>
+                            <frontend_type>select</frontend_type>
+                            <source_model>adminhtml/system_config_source_yesno</source_model>
+                            <sort_order>100</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </jquery_enabled>
+						<jquery_file translate="label comment">
+                            <label>Jquery File</label>
+                            <comment><![CDATA[Upload your Jquery js file here. File saved in <strong><span style="color: red;">js</span></strong> folder.]]></comment>
+                            <frontend_type>file</frontend_type>
+                            <backend_model>adminhtml/system_config_backend_file</backend_model>
+                            <upload_dir>js</upload_dir>
+                            <sort_order>101</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+							<depends>
+                                <jquery_enabled>1</jquery_enabled>
+                            </depends>
+                        </jquery_file>
+                    </fields>
+                </head>
+            </groups>
+        </design>
+    </sections>
+</config>

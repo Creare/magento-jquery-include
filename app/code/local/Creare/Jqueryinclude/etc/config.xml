@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+	<modules>
+		<Creare_Jqueryinclude>
+			<version>0.1.0</version>
+		</Creare_Jqueryinclude>
+	</modules>
+	<global>
+		<blocks>
+			<jqueryinclude>
+				<class>Creare_Jqueryinclude_Block</class>
+			</jqueryinclude>
+			<page>
+				<rewrite>
+					<html_head>Creare_Jqueryinclude_Block_Page_Html_Head</html_head>
+				</rewrite>
+			</page>
+		</blocks>
+	</global>
+</config>
