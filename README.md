@@ -6,3 +6,5 @@ The purpose of this module is to load your own jQuery library before the prototy
 To enable go to <strong>System > Configuration > Design > HTML Head</strong>
 
 To disable the entire module simply go to <strong>app/etc/modules/Creare_Jqueryinclude.xml</strong> and set <i>&lt;active&gt;false&lt;/active&gt;<i>.
+
+Developed by <a href="http://twitter.com/adampmoss">@adampmoss</a> for <a href="https://www.creare.co.uk">Creare Group</a>
